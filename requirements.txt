@@ -1,5 +1,5 @@
 aiofiles
-aiohttp
+aiohttp==3.7.4
 asyncio
 dnspython
 ffmpeg-python
@@ -7,14 +7,14 @@ gitpython
 hachoir
 heroku3
 lyricsgenius
-motor==3.0.0
+motor
 pillow
 psutil
-py-tgcalls==0.8.6
+py-tgcalls
 pykeyboard
-pyrogram==1.4.16
+pyrogram
 python-dotenv
-pyyaml==5.3.1
+pyyaml==5.4
 requests
 speedtest-cli
 spotipy
@@ -22,3 +22,4 @@ tgcrypto
 youtube-search
 youtube-search-python
 yt-dlp
+git+https://github.com/yt-dlp/yt-dlp
